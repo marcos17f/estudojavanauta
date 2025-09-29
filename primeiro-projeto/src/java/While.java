@@ -18,19 +18,20 @@ public class While {
 //            System.out.println("Numero: " + numero);
 
 
-            System.out.println("Digite o numero para ver a tabuada");
-            int numero = scanner.nextInt();
+        System.out.println("Digite o numero para ver a tabuada");
+        int numero = scanner.nextInt();
 
         System.out.println("\nTabuada do " + numero + " e :\n ");
 
-            for (int i = 1;i <= 10;i++){
-                int resultado = numero *i;
+        for (int i = 1; i <= 10; i++) {
+            int resultado = numero * i;
 
-                System.out.println(numero + " x " + i + " = " + resultado);
+            System.out.println(numero + " x " + i + " = " + resultado);
 
         }
         scanner.close();
     }
 }
+
 
 
