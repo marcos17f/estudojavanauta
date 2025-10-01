@@ -5,7 +5,7 @@ public class Principal {
 
         //Polimorfismo de sobrecarga
 
-        
+
         int sabaoPo = 12;
         int mamao = 5;
         double arroz = 5.90;
@@ -21,5 +21,10 @@ public class Principal {
         System.out.println("A compra deu R$:"+ total +" Reais ");
         System.out.println("A compra deu R$:"+ totalDouble +" Reais ");
         System.out.println("A compra deu R$:" + totalInterger +" Reais ");
+
+
+        //Carro
+        Carro fusca = new Carro();
+        fusca.mover();
     }
 }
