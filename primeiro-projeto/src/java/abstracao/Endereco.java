@@ -36,7 +36,13 @@ public abstract class Endereco {
         this.cep = cep;
     }
 
-    // =========================
+    public Endereco(String rua, String cidade, String cep, String estado) {
+        this.rua = rua;
+        this.cidade = cidade;
+        this.cep = cep;
+        this.estado = estado;
+    }
+// =========================
     // MÉTODOS SETTERS
     // =========================
     // Usados para alterar/definir os valores dos atributos.
@@ -84,5 +90,8 @@ public abstract class Endereco {
 
     public String getCep() {
         return cep; // retorna o valor de 'cep'
+    }
+    public void mostraEndereco() {
+        System.out.println("Endereço " + rua + "," + cidade + "," + numero + "," + estado + "," + cep);
     }
 }

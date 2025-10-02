@@ -65,4 +65,9 @@ public class Funcionarios extends Endereco implements Pessoa {
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
+    @Override
+    public void mostraEndereco(){
+        System.out.println("Endereço do funcionario" + getRua() + "," + getCidade() + "," + getCidade() + "," + getEstado() + "," + getCep());
+
+    }
 }
